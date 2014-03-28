@@ -90,7 +90,7 @@ MARK_AS_ADVANCED(CMAKE_Haskell_COMPILER)
 INCLUDE(CMakeFindBinUtils)
 
 # configure variables set in this file for fast reload later on
-CONFIGURE_FILE(${CMAKE_MODULE_DIRECTORY}/CMakeHaskellCompiler.cmake.in
+CONFIGURE_FILE(${CMAKE_CURRENT_LIST_DIR}/CMakeHaskellCompiler.cmake.in
   ${CMAKE_PLATFORM_INFO_DIR}/CMakeHaskellCompiler.cmake
   @ONLY IMMEDIATE # IMMEDIATE must be here for compatibility mode <= 2.0
   )
