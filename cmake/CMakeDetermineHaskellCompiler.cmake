@@ -91,7 +91,8 @@ INCLUDE(CMakeFindBinUtils)
 
 # configure variables set in this file for fast reload later on
 CONFIGURE_FILE(${CMAKE_MODULE_DIRECTORY}/CMakeHaskellCompiler.cmake.in
-  ${CMAKE_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/${CMAKE_VERSION}/CMakeHaskellCompiler.cmake
+  ${CMAKE_PLATFORM_INFO_DIR}/CMakeHaskellCompiler.cmake
   @ONLY IMMEDIATE # IMMEDIATE must be here for compatibility mode <= 2.0
   )
+
 SET(CMAKE_Haskell_COMPILER_ENV_VAR "HASKELL_COMPILER")
