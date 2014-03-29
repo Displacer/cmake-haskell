@@ -11,7 +11,7 @@ if (NOT CMAKE_Haskell_COMPILER_WORKS)
     ${CMAKE_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/CMakeTmp/testHaskellCompiler.hs
     OUTPUT_VARIABLE __CMAKE_Haskell_COMPILER_OUTPUT
   )
-endif()
+endif ()
 
 if (NOT CMAKE_Haskell_COMPILER_WORKS)
   PrintTestCompilerStatus ("Haskell" " -- broken")
