@@ -1,6 +1,5 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file LICENSE or
-# https://github.com/donkeybonks/cmake-haskell/blob/master/LICENSE for details.
+# file LICENSE
 
 # CMakeTestHaskellCompiler.cmake
 # Verifies that the selected Haskell compiler can produce a working program.
